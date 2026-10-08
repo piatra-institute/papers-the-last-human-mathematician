@@ -1,0 +1,36 @@
+slug: the-last-human-mathematician
+web_slug: the-last-human-mathematician
+title: '1976–2036: From the Last Human Computer to the Last Human Mathematician'
+header: The Last Human Mathematician
+created: 2026-10
+date: October 2026
+paper_dir: paper
+has_simulation: true
+claims_target: claim-ledger
+repo: git@github.com:piatra-institute/papers-the-last-human-mathematician.git
+github: https://github.com/piatra-institute/papers-the-last-human-mathematician
+status: published
+abstract: In the 1930s and 1940s a computer was a person, often a woman with a degree in mathematics, who calculated
+  for a living; within two decades the word meant a machine. The conversation from which this paper starts
+  proposed 1976, the year of the four-colour theorem, as the symbolic end of the human computer, and 2036 as
+  a horizon for the same transfer of the word "mathematician". We date the first transfer from English books.
+  Writers marked the machine sense of "computer" with a qualifier ("electronic", "digital", "automatic") in
+  22.7% of uses at the 1955 peak, in less than half that share by 1966 and in a tenth by 1980, and most printed
+  uses referred to machines by 1952 even if every wartime use is counted as human. Contrastive "human computer"
+  peaked in 1950. The noun's default moved two decades before human computing ended at NASA, and by 1976 the
+  machine qualifier had fallen to 14.7% of its peak. In a second case, "typewriter", the operator was renamed
+  "typist". For "mathematician" in October 2026, "human mathematician" rose to 1.5% of scholarly works using
+  the noun, 11.5 times its 2016 to 2024 rate, almost always beside terms for artificial intelligence, while
+  machines are rarely called mathematicians; the marking pattern is the inverse of 1950. We separate five transitions
+  (capability, operational autonomy, research production, professional jurisdiction and the default meaning
+  of the noun) and two outcomes (human understanding and human control), read the 2026 record of machine mathematics
+  against them, and state three claims for 2036 that can be preregistered and can fail.
+build_resources:
+- simulation/output/figures/computer.png
+- simulation/output/figures/typewriter.png
+- simulation/output/figures/mathematician.png
+web_blurb: In English books the word computer moved from people to machines in the 1950s, two decades before
+  the four-colour theorem and while human computers were still employed; in 2026 the word mathematician shows
+  the contrastive marking that preceded that shift without its first step, since machines are not yet called
+  mathematicians. Five separable transitions, the 2026 record of machine mathematics, and three falsifiable
+  claims for 2036.

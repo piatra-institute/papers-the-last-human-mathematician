@@ -1,0 +1,1112 @@
+references:
+- id: abbott1988
+  type: book
+  title: The System of Professions
+  author:
+  - family: Abbott
+    given: Andrew
+  publisher: University of Chicago Press
+  DOI: 10.7208/chicago/9780226189666.001.0001
+  issued:
+    date-parts:
+    - - 1988
+- id: acemoglu2019
+  type: article-journal
+  title: 'Automation and New Tasks: How Technology Displaces and Reinstates Labor'
+  author:
+  - family: Acemoglu
+    given: Daron
+  - family: Restrepo
+    given: Pascual
+  container-title: Journal of Economic Perspectives
+  volume: '33'
+  issue: '2'
+  page: 3-30
+  DOI: 10.1257/jep.33.2.3
+  issued:
+    date-parts:
+    - - 2019
+- id: agmai2026
+  type: webpage
+  title: Responsible Release of AI-Generated Mathematics
+  author:
+  - literal: Advisory Group on Mathematics and AI
+  URL: https://agmai.org/general-sep29/
+  accessed:
+    date-parts:
+    - - 2026
+      - 10
+      - 8
+  issued:
+    date-parts:
+    - - 2026
+      - 9
+      - 29
+- id: appel1976
+  type: article-journal
+  title: Every planar map is four colorable
+  author:
+  - family: Appel
+    given: K.
+  - family: Haken
+    given: W.
+  container-title: Bulletin of the American Mathematical Society
+  volume: '82'
+  issue: '5'
+  page: 711-712
+  DOI: 10.1090/s0002-9904-1976-14122-5
+  issued:
+    date-parts:
+    - - 1976
+- id: appel1977a
+  type: article-journal
+  title: 'Every planar map is four colorable. Part I: Discharging'
+  author:
+  - family: Appel
+    given: K.
+  - family: Haken
+    given: W.
+  container-title: Illinois Journal of Mathematics
+  volume: '21'
+  issue: '3'
+  DOI: 10.1215/ijm/1256049011
+  issued:
+    date-parts:
+    - - 1977
+- id: appel1977b
+  type: article-journal
+  title: 'Every planar map is four colorable. Part II: Reducibility'
+  author:
+  - family: Appel
+    given: K.
+  - family: Haken
+    given: W.
+  - family: Koch
+    given: J.
+  container-title: Illinois Journal of Mathematics
+  volume: '21'
+  issue: '3'
+  DOI: 10.1215/ijm/1256049012
+  issued:
+    date-parts:
+    - - 1977
+- id: autor2015
+  type: article-journal
+  title: Why Are There Still So Many Jobs? The History and Future of Workplace Automation
+  author:
+  - family: Autor
+    given: David H.
+  container-title: Journal of Economic Perspectives
+  volume: '29'
+  issue: '3'
+  page: 3-30
+  DOI: 10.1257/jep.29.3.3
+  issued:
+    date-parts:
+    - - 2015
+- id: avigad2008
+  type: chapter
+  title: Understanding Proofs
+  author:
+  - family: Avigad
+    given: Jeremy
+  container-title: The Philosophy of Mathematical Practice
+  page: 317-353
+  publisher: Oxford University Press
+  DOI: 10.1093/acprof:oso/9780199296453.003.0013
+  issued:
+    date-parts:
+    - - 2008
+- id: barendregt2005
+  type: article-journal
+  title: The challenge of computer mathematics
+  author:
+  - family: Barendregt
+    given: Henk
+  - family: Wiedijk
+    given: Freek
+  container-title: 'Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences'
+  volume: '363'
+  issue: '1835'
+  page: 2351-2375
+  DOI: 10.1098/rsta.2005.1650
+  issued:
+    date-parts:
+    - - 2005
+- id: clark1998
+  type: article-journal
+  title: The Extended Mind
+  author:
+  - family: Clark
+    given: A.
+  - family: Chalmers
+    given: D.
+  container-title: Analysis
+  volume: '58'
+  issue: '1'
+  page: 7-19
+  DOI: 10.1093/analys/58.1.7
+  issued:
+    date-parts:
+    - - 1998
+- id: davies2021
+  type: article-journal
+  title: Advancing mathematics by guiding human intuition with AI
+  author:
+  - family: Davies
+    given: Alex
+  - family: Veličković
+    given: Petar
+  - family: Buesing
+    given: Lars
+  - family: Blackwell
+    given: Sam
+  - family: Zheng
+    given: Daniel
+  - family: Tomašev
+    given: Nenad
+  - family: Tanburn
+    given: Richard
+  - family: Battaglia
+    given: Peter
+  - family: Blundell
+    given: Charles
+  - family: Juhász
+    given: András
+  - family: Lackenby
+    given: Marc
+  - family: Williamson
+    given: Geordie
+  - family: Hassabis
+    given: Demis
+  - family: Kohli
+    given: Pushmeet
+  container-title: Nature
+  volume: '600'
+  issue: '7887'
+  page: 70-74
+  DOI: 10.1038/s41586-021-04086-x
+  issued:
+    date-parts:
+    - - 2021
+- id: demillo1979
+  type: article-journal
+  title: Social processes and proofs of theorems and programs
+  author:
+  - family: DeMillo
+    given: Richard A.
+  - family: Lipton
+    given: Richard J.
+  - family: Perlis
+    given: Alan J.
+  container-title: Communications of the ACM
+  volume: '22'
+  issue: '5'
+  page: 271-280
+  DOI: 10.1145/359104.359106
+  issued:
+    date-parts:
+    - - 1979
+- id: demoura2021
+  type: chapter
+  title: The Lean 4 Theorem Prover and Programming Language
+  author:
+  - family: Moura
+    given: Leonardo de
+  - family: Ullrich
+    given: Sebastian
+  container-title: Lecture Notes in Computer Science
+  page: 625-635
+  publisher: Springer International Publishing
+  DOI: 10.1007/978-3-030-79876-5_37
+  issued:
+    date-parts:
+    - - 2021
+- id: dick2011
+  type: article-journal
+  title: 'AfterMath: The Work of Proof in the Age of Human–Machine Collaboration'
+  author:
+  - family: Dick
+    given: Stephanie
+  container-title: Isis
+  volume: '102'
+  issue: '3'
+  page: 494-505
+  DOI: 10.1086/661623
+  issued:
+    date-parts:
+    - - 2011
+- id: enayat2026
+  type: article
+  title: Mathematics in the age of the reproduction of intelligence
+  author:
+  - family: Enayat
+    given: Ali
+  publisher: arXiv
+  DOI: 10.48550/arxiv.2608.16378
+  issued:
+    date-parts:
+    - - 2026
+  container-title: arXiv
+- id: ensmenger2010
+  type: book
+  title: The Computer Boys Take Over
+  author:
+  - family: Ensmenger
+    given: Nathan L.
+  publisher: The MIT Press
+  DOI: 10.7551/mitpress/9780262050937.001.0001
+  issued:
+    date-parts:
+    - - 2010
+- id: feng2026
+  type: article
+  title: Towards Autonomous Mathematics Research
+  author:
+  - family: Feng
+    given: Tony
+  - family: Trinh
+    given: Trieu H.
+  - family: Bingham
+    given: Garrett
+  - family: Hwang
+    given: Dawsen
+  - family: Chervonyi
+    given: Yuri
+  - family: Jung
+    given: Junehyuk
+  - family: Lee
+    given: Joonkyung
+  - family: Pagano
+    given: Carlo
+  - family: Kim
+    given: Sang-hyun
+  - family: Pasqualotto
+    given: Federico
+  - family: Gukov
+    given: Sergei
+  - family: Lee
+    given: Jonathan N.
+  - family: Kim
+    given: Junsu
+  - family: Hou
+    given: Kaiying
+  - family: Ghiasi
+    given: Golnaz
+  - family: Tay
+    given: Yi
+  - family: Li
+    given: YaGuang
+  - family: Kuang
+    given: Chenkai
+  - family: Liu
+    given: Yuan
+  - family: Lin
+    given: Hanzhao
+  - family: Liu
+    given: Evan Zheran
+  - family: Nayakanti
+    given: Nigamaa
+  - family: Yang
+    given: Xiaomeng
+  - family: Cheng
+    given: Heng-Tze
+  - family: Hassabis
+    given: Demis
+  - family: Kavukcuoglu
+    given: Koray
+  - family: Le
+    given: Quoc V.
+  - family: Luong
+    given: Thang
+  publisher: arXiv
+  DOI: 10.48550/arxiv.2602.10177
+  issued:
+    date-parts:
+    - - 2026
+  container-title: arXiv
+- id: ganesalingam2017
+  type: article-journal
+  title: A Fully Automatic Theorem Prover with Human-Style Output
+  author:
+  - family: Ganesalingam
+    given: M.
+  - family: Gowers
+    given: W. T.
+  container-title: Journal of Automated Reasoning
+  volume: '58'
+  issue: '2'
+  page: 253-291
+  DOI: 10.1007/s10817-016-9377-1
+  issued:
+    date-parts:
+    - - 2017
+- id: gonthier2008
+  type: article-journal
+  title: 'Formal proof: the four-color theorem'
+  author:
+  - family: Gonthier
+    given: Georges
+  container-title: Notices of the American Mathematical Society
+  volume: '55'
+  issue: '11'
+  page: 1382-1393
+  issued:
+    date-parts:
+    - - 2008
+- id: grier2001
+  type: article-journal
+  title: 'Human computers: the first pioneers of the information age'
+  author:
+  - family: Grier
+    given: David Alan
+  container-title: Endeavour
+  volume: '25'
+  issue: '1'
+  page: 28-32
+  DOI: 10.1016/s0160-9327(00)01338-7
+  issued:
+    date-parts:
+    - - 2001
+- id: grier2005
+  type: edited-book
+  title: When Computers Were Human
+  author:
+  - family: Grier
+    given: David Alan
+  publisher: Princeton University Press
+  DOI: 10.1515/9781400849369
+  issued:
+    date-parts:
+    - - 2005
+- id: gygax2008
+  type: article-journal
+  title: 'Generically intended, but specifically interpreted: When beauticians, musicians, and mechanics are all
+    men'
+  author:
+  - family: Gygax
+    given: Pascal
+  - family: Gabriel
+    given: Ute
+  - family: Sarrasin
+    given: Oriane
+  - family: Oakhill
+    given: Jane
+  - family: Garnham
+    given: Alan
+  container-title: Language and Cognitive Processes
+  volume: '23'
+  issue: '3'
+  page: 464-485
+  DOI: 10.1080/01690960701702035
+  issued:
+    date-parts:
+    - - 2008
+- id: haigh2016
+  type: book
+  title: '<span class="nocase">ENIAC</span> in Action: Making and Remaking the Modern Computer'
+  author:
+  - family: Haigh
+    given: Thomas
+  - family: Priestley
+    given: Mark
+  - family: Rope
+    given: Crispin
+  publisher: The MIT Press
+  DOI: 10.7551/mitpress/9780262033985.001.0001
+  issued:
+    date-parts:
+    - - 2016
+- id: hales2017
+  type: article-journal
+  title: A formal proof of the Kepler conjecture
+  author:
+  - family: Hales
+    given: Thomas
+  - family: Adams
+    given: Mark
+  - family: Bauer
+    given: Gertrud
+  - family: Dang
+    given: Tat Dat
+  - family: Harrison
+    given: John
+  - family: Hoang
+    given: Le Truong
+  - family: Kaliszyk
+    given: Cezary
+  - family: Magron
+    given: Victor
+  - family: Mclaughlin
+    given: Sean
+  - family: Nguyen
+    given: Tat Thang
+  - family: Nguyen
+    given: Quang Truong
+  - family: Nipkow
+    given: Tobias
+  - family: Obua
+    given: Steven
+  - family: Pleso
+    given: Joseph
+  - family: Rute
+    given: Jason
+  - family: Solovyev
+    given: Alexey
+  - family: Ta
+    given: Thi Hoai An
+  - family: Tran
+    given: Nam Trung
+  - family: Trieu
+    given: Thi Diep
+  - family: Urban
+    given: Josef
+  - family: Vu
+    given: Ky
+  - family: Zumkeller
+    given: Roland
+  container-title: Forum of Mathematics, Pi
+  volume: '5'
+  DOI: 10.1017/fmp.2017.1
+  issued:
+    date-parts:
+    - - 2017
+- id: hamilton2016
+  type: paper-conference
+  title: Diachronic Word Embeddings Reveal Statistical Laws of Semantic Change
+  author:
+  - family: Hamilton
+    given: William L.
+  - family: Leskovec
+    given: Jure
+  - family: Jurafsky
+    given: Dan
+  container-title: 'Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume
+    1: Long Papers)'
+  page: 1489-1501
+  publisher: Association for Computational Linguistics
+  DOI: 10.18653/v1/p16-1141
+  issued:
+    date-parts:
+    - - 2016
+- id: haspelmath2006
+  type: article-journal
+  title: Against markedness (and what to replace it with)
+  author:
+  - family: Haspelmath
+    given: Martin
+  container-title: Journal of Linguistics
+  volume: '42'
+  issue: '1'
+  page: 25-70
+  DOI: 10.1017/s0022226705003683
+  issued:
+    date-parts:
+    - - 2006
+- id: hicks2017
+  type: book
+  title: 'Programmed Inequality: How Britain Discarded Women Technologists and Lost Its Edge in Computing'
+  author:
+  - family: Hicks
+    given: Mar
+  publisher: MIT Press
+  issued:
+    date-parts:
+    - - 2017
+- id: horn1984
+  type: chapter
+  title: 'Toward a new taxonomy for pragmatic inference: Q-based and R-based implicature'
+  author:
+  - family: Horn
+    given: Laurence R.
+  editor:
+  - family: Schiffrin
+    given: Deborah
+  container-title: 'Meaning, Form, and Use in Context: Linguistic Applications'
+  publisher: Georgetown University Press
+  page: 11-42
+  issued:
+    date-parts:
+    - - 1984
+- id: lakatos1976
+  type: edited-book
+  title: 'Proofs and Refutations: The Logic of Mathematical Discovery'
+  publisher: Cambridge University Press
+  DOI: 10.1017/cbo9781139171472
+  issued:
+    date-parts:
+    - - 1976
+  author:
+  - family: Lakatos
+    given: Imre
+  editor:
+  - family: Worrall
+    given: John
+  - family: Zahar
+    given: Elie
+- id: leiden2026
+  type: report
+  title: Leiden Declaration on Artificial Intelligence and Mathematics
+  author:
+  - family: Alper
+    given: Jarod
+  - family: Barany
+    given: Michael
+  - family: Chavarri Villarello
+    given: Alain
+  - family: Dahmen
+    given: Sander
+  - family: Dean
+    given: Walter
+  - family: Ganapathy
+    given: Karthik
+  - family: Harris
+    given: Michael
+  - family: Holmes
+    given: David
+  - family: Jamnik
+    given: Mateja
+  - family: Kelk
+    given: Steven
+  - family: Kra
+    given: Bryna
+  - family: Martin
+    given: Ursula
+  - family: Naskręcki
+    given: Bartosz
+  - family: Ochigame
+    given: Rodrigo
+  - family: Portegies
+    given: Jim
+  - family: Schmitt
+    given: Johannes
+  DOI: 10.5281/ZENODO.20302944
+  issued:
+    date-parts:
+    - - 2026
+  publisher: Zenodo
+- id: lenat1976
+  type: thesis
+  title: '<span class="nocase">AM</span>: An Artificial Intelligence Approach to Discovery in Mathematics as Heuristic
+    Search'
+  author:
+  - family: Lenat
+    given: Douglas B.
+  genre: PhD thesis
+  publisher: Stanford University
+  note: Stanford Artificial Intelligence Laboratory Memo AIM-286
+  issued:
+    date-parts:
+    - - 1976
+- id: lenatbrown1984
+  type: article-journal
+  title: Why <span class="nocase">AM</span> and <span class="nocase">EURISKO</span> appear to work
+  author:
+  - family: Lenat
+    given: Douglas B.
+  - family: Brown
+    given: John Seely
+  container-title: Artificial Intelligence
+  volume: '23'
+  issue: '3'
+  page: 269-294
+  DOI: 10.1016/0004-3702(84)90016-x
+  issued:
+    date-parts:
+    - - 1984
+- id: levinson2000
+  type: book
+  title: Presumptive Meanings
+  author:
+  - family: Levinson
+    given: Stephen C.
+  publisher: The MIT Press
+  DOI: 10.7551/mitpress/5526.001.0001
+  issued:
+    date-parts:
+    - - 2000
+- id: light1999
+  type: article-journal
+  title: When Computers Were Women
+  author:
+  - family: Light
+    given: Jennifer S.
+  container-title: Technology and Culture
+  volume: '40'
+  issue: '3'
+  page: 455-483
+  DOI: 10.1353/tech.1999.0128
+  issued:
+    date-parts:
+    - - 1999
+- id: mackenzie2001
+  type: book
+  title: Mechanizing Proof
+  author:
+  - family: MacKenzie
+    given: Donald
+  publisher: The MIT Press
+  DOI: 10.7551/mitpress/4529.001.0001
+  issued:
+    date-parts:
+    - - 2001
+- id: mathlib2020
+  type: paper-conference
+  title: The lean mathematical library
+  author:
+  - family: The mathlib Community
+  container-title: Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs
+  page: 367-381
+  publisher: ACM
+  DOI: 10.1145/3372885.3373824
+  issued:
+    date-parts:
+    - - 2020
+- id: mccune1997
+  type: article-journal
+  title: Solution of the Robbins Problem
+  author:
+  - family: McCune
+    given: William
+  container-title: Journal of Automated Reasoning
+  volume: '19'
+  issue: '3'
+  page: 263-276
+  DOI: 10.1023/a:1005843212881
+  issued:
+    date-parts:
+    - - 1997
+- id: michel2011
+  type: article-journal
+  title: Quantitative Analysis of Culture Using Millions of Digitized Books
+  author:
+  - family: Michel
+    given: Jean-Baptiste
+  - family: Shen
+    given: Yuan Kui
+  - family: Aiden
+    given: Aviva Presser
+  - family: Veres
+    given: Adrian
+  - family: Gray
+    given: Matthew K.
+  - literal: The Google Books Team
+  - family: Pickett
+    given: Joseph P.
+  - family: Hoiberg
+    given: Dale
+  - family: Clancy
+    given: Dan
+  - family: Norvig
+    given: Peter
+  - family: Orwant
+    given: Jon
+  - family: Pinker
+    given: Steven
+  - family: Nowak
+    given: Martin A.
+  - family: Aiden
+    given: Erez Lieberman
+  container-title: Science
+  volume: '331'
+  issue: '6014'
+  page: 176-182
+  DOI: 10.1126/science.1199644
+  issued:
+    date-parts:
+    - - 2011
+- id: nasa2016
+  type: webpage
+  title: 'When the Computer Wore a Skirt: Langley''s Computers, 1935–1970'
+  author:
+  - family: McLennan
+    given: Sarah
+  - family: Gainer
+    given: Mary
+  container-title: NASA History
+  URL: https://www.nasa.gov/history/langleys-computers-1935-1970/
+  accessed:
+    date-parts:
+    - - 2026
+      - 10
+      - 8
+  issued:
+    date-parts:
+    - - 2016
+- id: newell1956
+  type: article-journal
+  title: The logic theory machine--A complex information processing system
+  author:
+  - family: Newell
+    given: A.
+  - family: Simon
+    given: H.
+  container-title: IEEE Transactions on Information Theory
+  volume: '2'
+  issue: '3'
+  page: 61-79
+  DOI: 10.1109/tit.1956.1056797
+  issued:
+    date-parts:
+    - - 1956
+- id: ngramviewer
+  type: webpage
+  title: Google Books Ngram Viewer (English corpus)
+  author:
+  - literal: Google
+  URL: https://books.google.com/ngrams
+  accessed:
+    date-parts:
+    - - 2026
+      - 10
+      - 8
+  issued:
+    date-parts:
+    - - 2026
+- id: ochigame2024
+  type: article-journal
+  title: Automated mathematics and the reconfiguration of proof and labor
+  author:
+  - family: Ochigame
+    given: Rodrigo
+  container-title: Bulletin of the American Mathematical Society
+  volume: '61'
+  issue: '3'
+  page: 423-437
+  DOI: 10.1090/bull/1821
+  issued:
+    date-parts:
+    - - 2024
+- id: openai2026
+  type: webpage
+  title: Mathematical manuscripts and supporting proof artifacts (repository openai/math, README and release history)
+  author:
+  - literal: OpenAI
+  container-title: GitHub
+  URL: https://github.com/openai/math
+  accessed:
+    date-parts:
+    - - 2026
+      - 10
+      - 8
+  issued:
+    date-parts:
+    - - 2026
+- id: paulson2025
+  type: post-weblog
+  title: Revisiting an early critique of formal verification
+  author:
+  - family: Paulson
+    given: Lawrence C.
+  URL: https://lawrencecpaulson.github.io/2025/03/14/revisiting_demillo.html
+  accessed:
+    date-parts:
+    - - 2026
+      - 10
+      - 8
+  issued:
+    date-parts:
+    - - 2025
+      - 3
+      - 14
+- id: pechenick2015
+  type: article-journal
+  title: 'Characterizing the Google Books Corpus: Strong Limits to Inferences of Socio-Cultural and Linguistic Evolution'
+  author:
+  - family: Pechenick
+    given: Eitan Adam
+  - family: Danforth
+    given: Christopher M.
+  - family: Dodds
+    given: Peter Sheridan
+  container-title: PLOS ONE
+  volume: '10'
+  issue: '10'
+  page: e0137041
+  DOI: 10.1371/journal.pone.0137041
+  issued:
+    date-parts:
+    - - 2015
+- id: priem2022
+  type: article
+  title: 'OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts'
+  author:
+  - family: Priem
+    given: Jason
+  - family: Piwowar
+    given: Heather
+  - family: Orr
+    given: Richard
+  publisher: arXiv
+  DOI: 10.48550/arxiv.2205.01833
+  issued:
+    date-parts:
+    - - 2022
+  container-title: arXiv
+- id: rav1999
+  type: article-journal
+  title: Why Do We Prove Theorems?
+  author:
+  - family: Rav
+    given: Yehuda
+  container-title: Philosophia Mathematica
+  volume: '7'
+  issue: '1'
+  page: 5-41
+  DOI: 10.1093/philmat/7.1.5
+  issued:
+    date-parts:
+    - - 1999
+- id: robertson1997
+  type: article-journal
+  title: The Four-Colour Theorem
+  author:
+  - family: Robertson
+    given: Neil
+  - family: Sanders
+    given: Daniel
+  - family: Seymour
+    given: Paul
+  - family: Thomas
+    given: Robin
+  container-title: Journal of Combinatorial Theory, Series B
+  volume: '70'
+  issue: '1'
+  page: 2-44
+  DOI: 10.1006/jctb.1997.1750
+  issued:
+    date-parts:
+    - - 1997
+- id: romeraparedes2024
+  type: article-journal
+  title: Mathematical discoveries from program search with large language models
+  author:
+  - family: Romera-Paredes
+    given: Bernardino
+  - family: Barekatain
+    given: Mohammadamin
+  - family: Novikov
+    given: Alexander
+  - family: Balog
+    given: Matej
+  - family: Kumar
+    given: M. Pawan
+  - family: Dupont
+    given: Emilien
+  - family: Ruiz
+    given: Francisco J. R.
+  - family: Ellenberg
+    given: Jordan S.
+  - family: Wang
+    given: Pengming
+  - family: Fawzi
+    given: Omar
+  - family: Kohli
+    given: Pushmeet
+  - family: Fawzi
+    given: Alhussein
+  container-title: Nature
+  volume: '625'
+  issue: '7995'
+  page: 468-475
+  DOI: 10.1038/s41586-023-06924-6
+  issued:
+    date-parts:
+    - - 2024
+- id: shapin1989
+  type: article-journal
+  title: The invisible technician
+  author:
+  - family: Shapin
+    given: Steven
+  container-title: American Scientist
+  volume: '77'
+  issue: '6'
+  page: 554-563
+  issued:
+    date-parts:
+    - - 1989
+- id: shetterly2016
+  type: book
+  title: 'Hidden Figures: The American Dream and the Untold Story of the Black Women Mathematicians Who Helped Win
+    the Space Race'
+  author:
+  - family: Shetterly
+    given: Margot Lee
+  publisher: William Morrow
+  issued:
+    date-parts:
+    - - 2016
+- id: starstrauss1999
+  type: article-journal
+  title: 'Layers of Silence, Arenas of Voice: The Ecology of Visible and Invisible Work'
+  author:
+  - family: Star
+    given: Susan Leigh
+  - family: Strauss
+    given: Anselm
+  container-title: Computer Supported Cooperative Work (CSCW)
+  volume: '8'
+  issue: 1-2
+  page: 9-30
+  DOI: 10.1023/a:1008651105359
+  issued:
+    date-parts:
+    - - 1999
+- id: tao2026
+  type: article
+  title: Mathematics in the age of AI
+  author:
+  - family: Tao
+    given: Terence
+  publisher: arXiv
+  DOI: 10.48550/arxiv.2608.16753
+  issued:
+    date-parts:
+    - - 2026
+  container-title: arXiv
+- id: thurston1994
+  type: article-journal
+  title: On proof and progress in mathematics
+  author:
+  - family: Thurston
+    given: William P.
+  container-title: Bulletin of the American Mathematical Society
+  volume: '30'
+  issue: '2'
+  page: 161-178
+  DOI: 10.1090/s0273-0979-1994-00502-6
+  issued:
+    date-parts:
+    - - 1994
+- id: traugott2002
+  type: book
+  title: Regularity in Semantic Change
+  author:
+  - family: Traugott
+    given: Elizabeth Closs
+  - family: Dasher
+    given: Richard B.
+  publisher: Cambridge University Press
+  DOI: 10.1017/cbo9780511486500
+  issued:
+    date-parts:
+    - - 2002
+- id: trinh2024
+  type: article-journal
+  title: Solving olympiad geometry without human demonstrations
+  author:
+  - family: Trinh
+    given: Trieu H.
+  - family: Wu
+    given: Yuhuai
+  - family: Le
+    given: Quoc V.
+  - family: He
+    given: He
+  - family: Luong
+    given: Thang
+  container-title: Nature
+  volume: '625'
+  issue: '7995'
+  page: 476-482
+  DOI: 10.1038/s41586-023-06747-5
+  issued:
+    date-parts:
+    - - 2024
+- id: tsoukalas2026
+  type: article
+  title: Advancing Mathematics Research with AI-Driven Formal Proof Search
+  author:
+  - family: Tsoukalas
+    given: George
+  - family: Kovsharov
+    given: Anton
+  - family: Shirobokov
+    given: Sergey
+  - family: Surina
+    given: Anja
+  - family: Firsching
+    given: Moritz
+  - family: Bérczi
+    given: Gergely
+  - family: Ruiz
+    given: Francisco J. R.
+  - family: Suggala
+    given: Arun
+  - family: Wagner
+    given: Adam Zsolt
+  - family: Wieser
+    given: Eric
+  - family: Yu
+    given: Lei
+  - family: Huang
+    given: Aja
+  - family: Horváth
+    given: Miklós Z.
+  - family: Ferraiuolo
+    given: Andrew
+  - family: Michalewski
+    given: Henryk
+  - family: Lockhart
+    given: Edward
+  - family: Grosu
+    given: Codrut
+  - family: Hubert
+    given: Thomas
+  - family: Balog
+    given: Matej
+  - family: Kohli
+    given: Pushmeet
+  - family: Chaudhuri
+    given: Swarat
+  publisher: arXiv
+  DOI: 10.48550/arxiv.2605.22763
+  issued:
+    date-parts:
+    - - 2026
+  container-title: arXiv
+- id: turing1936
+  type: article-journal
+  title: On Computable Numbers, with an Application to the Entscheidungsproblem
+  author:
+  - family: Turing
+    given: A. M.
+  container-title: Proceedings of the London Mathematical Society
+  volume: s2-42
+  issue: '1'
+  page: 230-265
+  DOI: 10.1112/plms/s2-42.1.230
+  issued:
+    date-parts:
+    - - 1936
+- id: tymoczko1979
+  type: article-journal
+  title: The Four-Color Problem and Its Philosophical Significance
+  author:
+  - family: Tymoczko
+    given: Thomas
+  container-title: The Journal of Philosophy
+  volume: '76'
+  issue: '2'
+  page: 57-83
+  DOI: 10.2307/2025976
+  issued:
+    date-parts:
+    - - 1979
+- id: younes2019
+  type: article-journal
+  title: 'Guideline for improving the reliability of Google Ngram studies: Evidence from religious terms'
+  author:
+  - family: Younes
+    given: Nadja
+  - family: Reips
+    given: Ulf-Dietrich
+  container-title: PLOS ONE
+  volume: '14'
+  issue: '3'
+  page: e0213554
+  DOI: 10.1371/journal.pone.0213554
+  issued:
+    date-parts:
+    - - 2019

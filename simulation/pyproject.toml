@@ -1,0 +1,9 @@
+[project]
+name = "the-last-human-mathematician-sim"
+version = "0.1.0"
+description = "Corpus measurements of the semantic transfer of 'computer' and 'typewriter' and the 2026 baseline for 'mathematician'"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+]

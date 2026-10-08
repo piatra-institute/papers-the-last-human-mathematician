@@ -1,0 +1,1473 @@
+schema: 1
+coverage: reviewed
+reviewed_manuscript_sha256: edaedc42a0d2c0272dea4b2d12977722a0f2c7becc7dcaf09eabbd0a9c36839c
+claims:
+- id: a-peak
+  kind: computation
+  passage: Writers marked the machine sense of "computer" with a qualifier ("electronic", "digital", "automatic")
+    in 22.7% of uses at the 1955 peak, in less than half that share by 1966 and in a tenth by 1980, and most printed
+    uses referred to machines by 1952 even if every wartime use is counted as human.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/m_peak
+    reported: 22.7%
+    units: percent of uses
+    conditions: machine-marked share at its peak; Google Books Ngram Viewer, English, case-insensitive, five-year
+      centred ratios; data retrieved 8 October 2026
+    decimals: 1
+    scale: 100
+- id: a-peaky
+  kind: computation
+  passage: Writers marked the machine sense of "computer" with a qualifier ("electronic", "digital", "automatic")
+    in 22.7% of uses at the 1955 peak, in less than half that share by 1966 and in a tenth by 1980, and most printed
+    uses referred to machines by 1952 even if every wartime use is counted as human.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/m_peak_year
+    reported: '1955'
+    units: year
+    conditions: peak year of the machine-marked share
+    decimals: 0
+- id: a-half
+  kind: computation
+  passage: Writers marked the machine sense of "computer" with a qualifier ("electronic", "digital", "automatic")
+    in 22.7% of uses at the 1955 peak, in less than half that share by 1966 and in a tenth by 1980, and most printed
+    uses referred to machines by 1952 even if every wartime use is counted as human.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/m_fall_years/0.5
+    reported: '1966'
+    units: year
+    conditions: first year from which the share stays below half its peak
+    decimals: 0
+- id: a-tenth
+  kind: computation
+  passage: Writers marked the machine sense of "computer" with a qualifier ("electronic", "digital", "automatic")
+    in 22.7% of uses at the 1955 peak, in less than half that share by 1966 and in a tenth by 1980, and most printed
+    uses referred to machines by 1952 even if every wartime use is counted as human.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/m_fall_years/0.1
+    reported: '1980'
+    units: year
+    conditions: below a tenth of the peak
+    decimals: 0
+- id: a-maj
+  kind: computation
+  passage: Writers marked the machine sense of "computer" with a qualifier ("electronic", "digital", "automatic")
+    in 22.7% of uses at the 1955 peak, in less than half that share by 1966 and in a tenth by 1980, and most printed
+    uses referred to machines by 1952 even if every wartime use is counted as human.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/share/high/year_half
+    reported: '1952'
+    units: year
+    conditions: machine majority of uses with the wartime peak as the human sense
+    decimals: 0
+- id: a-hum
+  kind: computation
+  passage: Contrastive "human computer" peaked in 1950.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/h_peak_year_1940_1975
+    reported: '1950'
+    units: year
+    conditions: peak of the human-marked share, 1940 to 1975
+    decimals: 0
+- id: a-1976
+  kind: computation
+  passage: The noun's default moved two decades before human computing ended at NASA, and by 1976 the machine qualifier
+    had fallen to 14.7% of its peak.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/m_1976_over_peak
+    reported: 14.7%
+    units: percent of the peak
+    conditions: machine-marked share in 1976 relative to its 1955 peak
+    decimals: 1
+    scale: 100
+- id: a-rate
+  kind: computation
+  passage: For "mathematician" in October 2026, "human mathematician" rose to 1.5% of scholarly works using the
+    noun, 11.5 times its 2016 to 2024 rate, almost always beside terms for artificial intelligence, while machines
+    are rarely called mathematicians; the marking pattern is the inverse of 1950.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_scholarly/clean_rate_2026
+    reported: 1.5%
+    units: percent of works
+    conditions: deduplicated, single-author series removed, phrase verified; OpenAlex title-and-abstract search,
+      retrieved 8 October 2026; 2026 to 8 October
+    decimals: 1
+    scale: 100
+- id: a-fold
+  kind: computation
+  passage: For "mathematician" in October 2026, "human mathematician" rose to 1.5% of scholarly works using the
+    noun, 11.5 times its 2016 to 2024 rate, almost always beside terms for artificial intelligence, while machines
+    are rarely called mathematicians; the marking pattern is the inverse of 1950.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_scholarly/clean_rate_fold
+    reported: '11.5'
+    units: ratio
+    conditions: 2026 rate over the 2016-2024 rate, cleaned counts
+    decimals: 1
+- id: s-appel
+  kind: source
+  passage: The four-colour theorem was announced in 1976 [@appel1976], and its proof depended on computation that
+    no person could check by hand; 2036 is a date in the future, chosen because it lies sixty years after 1976 and
+    a century after Turing's analysis of computation, which modelled the machine on a person working with pencil
+    and paper [@turing1936].
+  evidence:
+    citation_id: appel1976
+    locator: Abstract
+    verification_note: 'Abstract: every planar map can be colored with at most four colors; the full proof appears
+      in two papers, Part II with Koch.'
+    verified: true
+- id: s-turing
+  kind: source
+  passage: The four-colour theorem was announced in 1976 [@appel1976], and its proof depended on computation that
+    no person could check by hand; 2036 is a date in the future, chosen because it lies sixty years after 1976 and
+    a century after Turing's analysis of computation, which modelled the machine on a person working with pencil
+    and paper [@turing1936].
+  evidence:
+    citation_id: turing1936
+    locator: Section 9
+    verification_note: 'Standard result: the analysis of computable numbers modelled on a person computing with
+      a finite number of states of mind (title and standard content).'
+    verified: true
+- id: s-grier
+  kind: source
+  passage: Human computers were organised workers in observatories, survey offices, actuarial departments, ballistics
+    laboratories and aeronautical research centres [@grier2001; @grier2005].
+  evidence:
+    citation_id: grier2005
+    locator: Title
+    verification_note: 'Standard content: history of human computers in observatories, survey offices, ballistics
+      and other settings (title and standard content).'
+    verified: true
+- id: s-grier01
+  kind: source
+  passage: Human computers were organised workers in observatories, survey offices, actuarial departments, ballistics
+    laboratories and aeronautical research centres [@grier2001; @grier2005].
+  evidence:
+    citation_id: grier2001
+    locator: Title
+    verification_note: 'Standard content: human computers as pioneers of the information age (title).'
+    verified: true
+- id: s-nasa
+  kind: source
+  passage: At the Langley laboratory of the National Advisory Committee for Aeronautics, "computer" was a job title
+    for people who performed calculations by hand; hundreds of women, most of them with degrees in mathematics or
+    the sciences, worked as computers there, and African-American women were grouped in a segregated section, the
+    West Area Computers [@nasa2016; @shetterly2016].
+  evidence:
+    citation_id: nasa2016
+    locator: Text
+    verification_note: 'Page read 2026-10-08: "computer" was a job title for people who performed calculations by
+      hand; hundreds of women, most with degrees in math or other sciences; West Area Computers in a segregated
+      section.'
+    verified: true
+- id: s-nasa2
+  kind: source
+  passage: NASA's own history of the work runs from 1935 to 1970 [@nasa2016].
+  evidence:
+    citation_id: nasa2016
+    locator: Title
+    verification_note: 'Page title read 2026-10-08: When the Computer Wore a Skirt: Langley''s Computers, 1935-1970.'
+    verified: true
+- id: s-light
+  kind: source
+  passage: Nearly 200 young women worked as human computers on ballistics calculations for the ENIAC project, and
+    six of them were selected to program the machine that took their name and replaced them; the machine's expertise
+    became far more celebrated than theirs [@light1999; @haigh2016].
+  evidence:
+    citation_id: light1999
+    locator: Abstract
+    verification_note: 'Abstract: nearly two hundred young women worked as human computers on ballistics; six were
+      selected to program the machine that took their name and replaced them; the machine''s expertise became vastly
+      more celebrated than theirs.'
+    verified: true
+- id: s-hicks
+  kind: source
+  passage: The occupation was a division of scientific labour by gender and race as much as a set of tasks, and
+    the same division shaped who was credited when the work became machine work [@hicks2017; @ensmenger2010].
+  evidence:
+    citation_id: hicks2017
+    locator: Title
+    verification_note: 'Standard content: how Britain discarded women technologists in computing (title).'
+    verified: true
+- id: s-ensmenger
+  kind: source
+  passage: The occupation was a division of scientific labour by gender and race as much as a set of tasks, and
+    the same division shaped who was credited when the work became machine work [@hicks2017; @ensmenger2010].
+  evidence:
+    citation_id: ensmenger2010
+    locator: Title
+    verification_note: 'Standard content: the professionalization of programming (title).'
+    verified: true
+- id: s-shapin
+  kind: source
+  passage: Technicians in early modern laboratories [@shapin1989] and many kinds of maintenance and coordination
+    work [@starstrauss1999] have been invisible in the same way.
+  evidence:
+    citation_id: shapin1989
+    locator: Title
+    verification_note: 'Standard content: the invisibility of technicians in seventeenth-century experimental science
+      (title).'
+    verified: true
+- id: s-star
+  kind: source
+  passage: Technicians in early modern laboratories [@shapin1989] and many kinds of maintenance and coordination
+    work [@starstrauss1999] have been invisible in the same way.
+  evidence:
+    citation_id: starstrauss1999
+    locator: Title
+    verification_note: 'Standard content: the ecology of visible and invisible work (title).'
+    verified: true
+- id: s-haigh
+  kind: source
+  passage: The ENIAC was publicly demonstrated in 1946 [@haigh2016].
+  evidence:
+    citation_id: haigh2016
+    locator: Title
+    verification_note: 'Standard content: history of ENIAC, publicly unveiled in 1946 (title and standard content).'
+    verified: true
+- id: s-tymo
+  kind: source
+  passage: Tymoczko argued that its reliance on an unsurveyable computation changed what counts as a mathematical
+    proof [@tymoczko1979].
+  evidence:
+    citation_id: tymoczko1979
+    locator: Title
+    verification_note: 'Standard content: the four-color proof as a philosophical problem about surveyability and
+      proof (title and standard content).'
+    verified: true
+- id: s-rsst
+  kind: source
+  passage: A shorter computer-assisted proof followed two decades later [@robertson1997], and a complete formal
+    proof in a proof assistant three decades later [@gonthier2008].
+  evidence:
+    citation_id: robertson1997
+    locator: Title
+    verification_note: 'Standard content: a new computer-assisted proof of the four-colour theorem (title).'
+    verified: true
+- id: s-gonthier
+  kind: source
+  passage: A shorter computer-assisted proof followed two decades later [@robertson1997], and a complete formal
+    proof in a proof assistant three decades later [@gonthier2008].
+  evidence:
+    citation_id: gonthier2008
+    locator: Title
+    verification_note: 'Standard content: a formal proof of the four-color theorem in Coq (title).'
+    verified: true
+- id: s-lenat
+  kind: source
+  passage: 'Douglas Lenat''s thesis of that year, *AM: An Artificial Intelligence Approach to Discovery in Mathematics
+    as Heuristic Search*, described a program that proposed mathematical concepts and conjectures [@lenat1976; @lenatbrown1984].'
+  evidence:
+    citation_id: lenat1976
+    locator: Title
+    verification_note: 'Standard bibliographic record: Stanford PhD thesis, 1976, on AM, a program for discovery
+      in mathematics as heuristic search.'
+    verified: true
+- id: s-newell
+  kind: source
+  passage: Twenty years earlier Newell and Simon had described a machine that discovered proofs in symbolic logic
+    by heuristic search [@newell1956].
+  evidence:
+    citation_id: newell1956
+    locator: Abstract
+    verification_note: 'Abstract: the logic theory machine discovers proofs for theorems in symbolic logic by heuristic
+      methods.'
+    verified: true
+- id: s-lakatos
+  kind: source
+  passage: Lakatos's *Proofs and Refutations*, a study of mathematical discovery as a dialogue of conjecture and
+    counterexample, was also published in 1976 [@lakatos1976].
+  evidence:
+    citation_id: lakatos1976
+    locator: Title
+    verification_note: 'Standard bibliographic record: Cambridge University Press, 1976.'
+    verified: true
+- id: s-mccune
+  kind: source
+  passage: In 1996 the EQP prover found a proof that every Robbins algebra is Boolean, settling a question open
+    since the 1930s [@mccune1997].
+  evidence:
+    citation_id: mccune1997
+    locator: Research record
+    verification_note: 'McCune''s research record (web, read 2026-10-08): EQP found the proof on 10 October 1996;
+      Huntington''s basis of 1933; JAR 19(3):263-276.'
+    verified: true
+- id: s-mark
+  kind: source
+  passage: This is the asymmetry that linguists have described as markedness and that reduces largely to frequency
+    [@horn1984; @levinson2000; @haspelmath2006].
+  evidence:
+    citation_id: haspelmath2006
+    locator: Abstract
+    verification_note: 'Abstract: the senses of markedness, many of which reduce to frequency asymmetries.'
+    verified: true
+- id: s-horn
+  kind: source
+  passage: This is the asymmetry that linguists have described as markedness and that reduces largely to frequency
+    [@horn1984; @levinson2000; @haspelmath2006].
+  evidence:
+    citation_id: horn1984
+    locator: Title
+    verification_note: 'Standard content: the division of pragmatic labor between marked and unmarked expressions
+      (title and standard content).'
+    verified: true
+- id: s-gygax
+  kind: source
+  passage: Psycholinguistic work on role nouns shows that readers infer a default referent, for instance a default
+    gender, from an unmarked noun [@gygax2008].
+  evidence:
+    citation_id: gygax2008
+    locator: Abstract
+    verification_note: 'Abstract: stereotype and grammatical information shape the gender readers represent for
+      role names.'
+    verified: true
+- id: s-michel
+  kind: source
+  passage: 'Three series serve for "computer" in the English corpus of the Google Books Ngram Viewer [@michel2011;
+    @ngramviewer], case-insensitive and unsmoothed, from 1900 to 2022: the frequency of "computer" and "computers";
+    the frequency of the machine-marked forms "electronic", "digital" and "automatic computer(s)"; and the frequency
+    of "human computer(s)" net of "human-computer interaction" and "human-computer interface(s)".'
+  evidence:
+    citation_id: michel2011
+    locator: Abstract
+    verification_note: 'Abstract: linguistic and cultural change revealed through words in books (the Google Books
+      corpus).'
+    verified: true
+- id: s-pech
+  kind: source
+  passage: The corpus is a library with one copy of each book, so prolific authors and changes in its composition
+    can move frequencies [@pechenick2015; @younes2019]; the measures used are ratios within one corpus and one period,
+    which reduces but does not remove those effects.
+  evidence:
+    citation_id: pechenick2015
+    locator: Abstract
+    verification_note: 'Abstract: the corpus is in effect a library with one of each book; a single prolific author
+      can insert phrases.'
+    verified: true
+- id: s-young
+  kind: source
+  passage: The corpus is a library with one copy of each book, so prolific authors and changes in its composition
+    can move frequencies [@pechenick2015; @younes2019]; the measures used are ratios within one corpus and one period,
+    which reduces but does not remove those effects.
+  evidence:
+    citation_id: younes2019
+    locator: Abstract
+    verification_note: 'Abstract: reliability procedures for Google Ngram studies.'
+    verified: true
+- id: c-grow
+  kind: computation
+  passage: The frequency of "computer(s)" in English books grew 36 times between 1940 and 1960 (Figure 1).
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/growth_1940_1960
+    reported: '36'
+    units: ratio
+    conditions: Google Books Ngram Viewer, English, case-insensitive, five-year centred ratios; data retrieved 8
+      October 2026
+    decimals: 0
+- id: c-h1
+  kind: computation
+  passage: If the human sense never exceeded the wartime peak of the noun's whole frequency between 1940 and 1946,
+    which overstates it because that peak already included machine and device uses, the machine sense was the majority
+    of printed uses from 1952 and 90% of them from 1958.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/share/high/year_half
+    reported: '1952'
+    units: year
+    conditions: twice the 1940-1946 peak of the three-year mean
+    decimals: 0
+- id: c-h9
+  kind: computation
+  passage: If the human sense never exceeded the wartime peak of the noun's whole frequency between 1940 and 1946,
+    which overstates it because that peak already included machine and device uses, the machine sense was the majority
+    of printed uses from 1952 and 90% of them from 1958.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/share/high/year_ninety
+    reported: '1958'
+    units: year
+    conditions: ten times that peak
+    decimals: 0
+- id: c-l1
+  kind: computation
+  passage: With the pre-war level of 1902 to 1932 as the human sense, the same thresholds fall in 1941 and 1953.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/share/low/year_half
+    reported: '1941'
+    units: year
+    conditions: twice the 1902-1932 mean
+    decimals: 0
+- id: c-l9
+  kind: computation
+  passage: With the pre-war level of 1902 to 1932 as the human sense, the same thresholds fall in 1941 and 1953.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/share/low/year_ninety
+    reported: '1953'
+    units: year
+    conditions: ten times that mean
+    decimals: 0
+- id: c-mp
+  kind: computation
+  passage: The machine-marked share peaked in 1955 at 22.7% of uses; it fell below half of that peak in 1966, below
+    a quarter in 1972 and below a tenth in 1980.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/m_peak
+    reported: 22.7%
+    units: percent of uses
+    conditions: Google Books Ngram Viewer, English, case-insensitive, five-year centred ratios; data retrieved 8
+      October 2026
+    decimals: 1
+    scale: 100
+- id: c-my
+  kind: computation
+  passage: The machine-marked share peaked in 1955 at 22.7% of uses; it fell below half of that peak in 1966, below
+    a quarter in 1972 and below a tenth in 1980.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/m_peak_year
+    reported: '1955'
+    units: year
+    conditions: peak year
+    decimals: 0
+- id: c-m5
+  kind: computation
+  passage: The machine-marked share peaked in 1955 at 22.7% of uses; it fell below half of that peak in 1966, below
+    a quarter in 1972 and below a tenth in 1980.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/m_fall_years/0.5
+    reported: '1966'
+    units: year
+    conditions: below half
+    decimals: 0
+- id: c-m25
+  kind: computation
+  passage: The machine-marked share peaked in 1955 at 22.7% of uses; it fell below half of that peak in 1966, below
+    a quarter in 1972 and below a tenth in 1980.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/m_fall_years/0.25
+    reported: '1972'
+    units: year
+    conditions: below a quarter
+    decimals: 0
+- id: c-m1
+  kind: computation
+  passage: The machine-marked share peaked in 1955 at 22.7% of uses; it fell below half of that peak in 1966, below
+    a quarter in 1972 and below a tenth in 1980.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/m_fall_years/0.1
+    reported: '1980'
+    units: year
+    conditions: below a tenth
+    decimals: 0
+- id: c-76
+  kind: computation
+  passage: In 1976 it stood at 14.7% of its peak, and by 2000 at 0.46% of uses.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/m_1976_over_peak
+    reported: 14.7%
+    units: percent of the peak
+    conditions: '1976'
+    decimals: 1
+    scale: 100
+- id: c-00
+  kind: computation
+  passage: In 1976 it stood at 14.7% of its peak, and by 2000 at 0.46% of uses.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/m_2000
+    reported: 0.46%
+    units: percent of uses
+    conditions: '2000'
+    decimals: 2
+    scale: 100
+- id: c-cm40
+  kind: computation
+  passage: The older alternative "computing machine(s)" fell from 9.9% of the combined frequency of the two nouns
+    in 1940 to 1.5% in 1960.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/computing_machine_share_1940
+    reported: 9.9%
+    units: percent
+    conditions: '1940'
+    decimals: 1
+    scale: 100
+- id: c-cm60
+  kind: computation
+  passage: The older alternative "computing machine(s)" fell from 9.9% of the combined frequency of the two nouns
+    in 1940 to 1.5% in 1960.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/computing_machine_share_1960
+    reported: 1.5%
+    units: percent
+    conditions: '1960'
+    decimals: 1
+    scale: 100
+- id: c-hy
+  kind: computation
+  passage: The human sense was marked first. "Human computer", net of its human-computer-interaction uses, peaked
+    in 1950 at 0.14% of uses of the noun, when the machines were new and writers contrasted them with the people
+    who had done the work.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/h_peak_year_1940_1975
+    reported: '1950'
+    units: year
+    conditions: peak year 1940-1975
+    decimals: 0
+- id: c-hp
+  kind: computation
+  passage: The human sense was marked first. "Human computer", net of its human-computer-interaction uses, peaked
+    in 1950 at 0.14% of uses of the noun, when the machines were new and writers contrasted them with the people
+    who had done the work.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/h_peak_1940_1975
+    reported: 0.14%
+    units: percent of uses
+    conditions: peak share
+    decimals: 2
+    scale: 100
+- id: c-h72
+  kind: computation
+  passage: Its share then fell to 0.012% in 1972 and rose again to 0.042% in 2018, 3.5 times its 1972 level, a retrospective
+    marking that coincides with histories of human computing and their popular reception [@light1999; @grier2005;
+    @shetterly2016].
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/h_1972
+    reported: 0.012%
+    units: percent of uses
+    conditions: '1972'
+    decimals: 3
+    scale: 100
+- id: c-h18
+  kind: computation
+  passage: Its share then fell to 0.012% in 1972 and rose again to 0.042% in 2018, 3.5 times its 1972 level, a retrospective
+    marking that coincides with histories of human computing and their popular reception [@light1999; @grier2005;
+    @shetterly2016].
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/h_2018
+    reported: 0.042%
+    units: percent of uses
+    conditions: '2018'
+    decimals: 3
+    scale: 100
+- id: c-hr
+  kind: computation
+  passage: Its share then fell to 0.012% in 1972 and rose again to 0.042% in 2018, 3.5 times its 1972 level, a retrospective
+    marking that coincides with histories of human computing and their popular reception [@light1999; @grier2005;
+    @shetterly2016].
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/h_2018_over_1972
+    reported: '3.5'
+    units: ratio
+    conditions: 2018 over 1972
+    decimals: 1
+- id: c-mh
+  kind: computation
+  passage: In 1950 the machine sense was marked 111 times as often as the human sense.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/m_over_h_1950
+    reported: '111'
+    units: ratio
+    conditions: machine-marked over human-marked share, 1950
+    decimals: 0
+- id: c-read
+  kind: interpretation
+  passage: The sequence has three phases.
+  rationale: Reading of the three series above; phases defined by the peaks of the human-marked (1950) and machine-marked
+    (1955) shares and the decline below a tenth of the peak (1980).
+- id: t-y
+  kind: computation
+  passage: The person-marked share of uses peaked in 1898 at 0.68% and had fallen to 1.9% of that peak by 1930,
+    while "typist(s)" grew from 0.024 of the frequency of "typewriter(s)" in 1890 to 0.31 in 1920 and 0.73 in 1940
+    (Figure 2).
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /typewriter/person_peak_year
+    reported: '1898'
+    units: year
+    conditions: peak year 1880-1940
+    decimals: 0
+- id: t-p
+  kind: computation
+  passage: The person-marked share of uses peaked in 1898 at 0.68% and had fallen to 1.9% of that peak by 1930,
+    while "typist(s)" grew from 0.024 of the frequency of "typewriter(s)" in 1890 to 0.31 in 1920 and 0.73 in 1940
+    (Figure 2).
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /typewriter/person_peak
+    reported: 0.68%
+    units: percent of uses
+    conditions: person-marked share at peak
+    decimals: 2
+    scale: 100
+- id: t-30
+  kind: computation
+  passage: The person-marked share of uses peaked in 1898 at 0.68% and had fallen to 1.9% of that peak by 1930,
+    while "typist(s)" grew from 0.024 of the frequency of "typewriter(s)" in 1890 to 0.31 in 1920 and 0.73 in 1940
+    (Figure 2).
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /typewriter/person_1930_over_peak
+    reported: 1.9%
+    units: percent of the peak
+    conditions: '1930'
+    decimals: 1
+    scale: 100
+- id: t-90
+  kind: computation
+  passage: The person-marked share of uses peaked in 1898 at 0.68% and had fallen to 1.9% of that peak by 1930,
+    while "typist(s)" grew from 0.024 of the frequency of "typewriter(s)" in 1890 to 0.31 in 1920 and 0.73 in 1940
+    (Figure 2).
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /typewriter/typist_ratio_1890
+    reported: '0.024'
+    units: ratio
+    conditions: typist(s) per typewriter(s), 1890
+    decimals: 3
+- id: t-20
+  kind: computation
+  passage: The person-marked share of uses peaked in 1898 at 0.68% and had fallen to 1.9% of that peak by 1930,
+    while "typist(s)" grew from 0.024 of the frequency of "typewriter(s)" in 1890 to 0.31 in 1920 and 0.73 in 1940
+    (Figure 2).
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /typewriter/typist_ratio_1920
+    reported: '0.31'
+    units: ratio
+    conditions: '1920'
+    decimals: 2
+- id: t-40
+  kind: computation
+  passage: The person-marked share of uses peaked in 1898 at 0.68% and had fallen to 1.9% of that peak by 1930,
+    while "typist(s)" grew from 0.024 of the frequency of "typewriter(s)" in 1890 to 0.31 in 1920 and 0.73 in 1940
+    (Figure 2).
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /typewriter/typist_ratio_1940
+    reported: '0.73'
+    units: ratio
+    conditions: '1940'
+    decimals: 2
+- id: frame
+  kind: definition
+  passage: A single story of replacement compresses several changes that can occur at different times and in different
+    orders.
+  rationale: Analytical framework of five transitions and two outcomes, adapted from the origin dossier; not a validated
+    model.
+- id: s-davies
+  kind: source
+  passage: Machine learning helped mathematicians find conjectures in knot theory and representation theory [@davies2021];
+    program search with a language model and an automatic evaluator improved the best known constructions for several
+    combinatorial problems [@romeraparedes2024]; a neuro-symbolic system solved olympiad geometry problems without
+    human demonstrations [@trinh2024]; a program solved elementary problems in metric space theory with write-ups
+    hard to distinguish from those of human mathematicians [@ganesalingam2017]; and formal proof became a working
+    tool for large projects [@hales2017; @mathlib2020; @demoura2021].
+  evidence:
+    citation_id: davies2021
+    locator: Abstract
+    verification_note: 'Abstract: new results in pure mathematics discovered with machine-learning assistance.'
+    verified: true
+- id: s-fun
+  kind: source
+  passage: Machine learning helped mathematicians find conjectures in knot theory and representation theory [@davies2021];
+    program search with a language model and an automatic evaluator improved the best known constructions for several
+    combinatorial problems [@romeraparedes2024]; a neuro-symbolic system solved olympiad geometry problems without
+    human demonstrations [@trinh2024]; a program solved elementary problems in metric space theory with write-ups
+    hard to distinguish from those of human mathematicians [@ganesalingam2017]; and formal proof became a working
+    tool for large projects [@hales2017; @mathlib2020; @demoura2021].
+  evidence:
+    citation_id: romeraparedes2024
+    locator: Abstract
+    verification_note: 'Abstract: FunSearch pairs a pretrained LLM with a systematic evaluator and surpasses best-known
+      results on important problems.'
+    verified: true
+- id: s-trinh
+  kind: source
+  passage: Machine learning helped mathematicians find conjectures in knot theory and representation theory [@davies2021];
+    program search with a language model and an automatic evaluator improved the best known constructions for several
+    combinatorial problems [@romeraparedes2024]; a neuro-symbolic system solved olympiad geometry problems without
+    human demonstrations [@trinh2024]; a program solved elementary problems in metric space theory with write-ups
+    hard to distinguish from those of human mathematicians [@ganesalingam2017]; and formal proof became a working
+    tool for large projects [@hales2017; @mathlib2020; @demoura2021].
+  evidence:
+    citation_id: trinh2024
+    locator: Abstract
+    verification_note: 'Abstract: AlphaGeometry solves olympiad geometry by synthesizing training data without human
+      demonstrations.'
+    verified: true
+- id: s-gg
+  kind: source
+  passage: Machine learning helped mathematicians find conjectures in knot theory and representation theory [@davies2021];
+    program search with a language model and an automatic evaluator improved the best known constructions for several
+    combinatorial problems [@romeraparedes2024]; a neuro-symbolic system solved olympiad geometry problems without
+    human demonstrations [@trinh2024]; a program solved elementary problems in metric space theory with write-ups
+    hard to distinguish from those of human mathematicians [@ganesalingam2017]; and formal proof became a working
+    tool for large projects [@hales2017; @mathlib2020; @demoura2021].
+  evidence:
+    citation_id: ganesalingam2017
+    locator: Abstract
+    verification_note: 'Abstract: a program solving elementary problems, mostly in metric space theory, with solutions
+      hard to distinguish from those of human mathematicians.'
+    verified: true
+- id: s-hales
+  kind: source
+  passage: Machine learning helped mathematicians find conjectures in knot theory and representation theory [@davies2021];
+    program search with a language model and an automatic evaluator improved the best known constructions for several
+    combinatorial problems [@romeraparedes2024]; a neuro-symbolic system solved olympiad geometry problems without
+    human demonstrations [@trinh2024]; a program solved elementary problems in metric space theory with write-ups
+    hard to distinguish from those of human mathematicians [@ganesalingam2017]; and formal proof became a working
+    tool for large projects [@hales2017; @mathlib2020; @demoura2021].
+  evidence:
+    citation_id: hales2017
+    locator: Abstract
+    verification_note: 'Abstract: formal proof of the Kepler conjecture in HOL Light and Isabelle.'
+    verified: true
+- id: s-mathlib
+  kind: source
+  passage: Machine learning helped mathematicians find conjectures in knot theory and representation theory [@davies2021];
+    program search with a language model and an automatic evaluator improved the best known constructions for several
+    combinatorial problems [@romeraparedes2024]; a neuro-symbolic system solved olympiad geometry problems without
+    human demonstrations [@trinh2024]; a program solved elementary problems in metric space theory with write-ups
+    hard to distinguish from those of human mathematicians [@ganesalingam2017]; and formal proof became a working
+    tool for large projects [@hales2017; @mathlib2020; @demoura2021].
+  evidence:
+    citation_id: mathlib2020
+    locator: Abstract
+    verification_note: 'Abstract: mathlib, a community-driven library of formalized mathematics in Lean.'
+    verified: true
+- id: s-lean
+  kind: source
+  passage: Machine learning helped mathematicians find conjectures in knot theory and representation theory [@davies2021];
+    program search with a language model and an automatic evaluator improved the best known constructions for several
+    combinatorial problems [@romeraparedes2024]; a neuro-symbolic system solved olympiad geometry problems without
+    human demonstrations [@trinh2024]; a program solved elementary problems in metric space theory with write-ups
+    hard to distinguish from those of human mathematicians [@ganesalingam2017]; and formal proof became a working
+    tool for large projects [@hales2017; @mathlib2020; @demoura2021].
+  evidence:
+    citation_id: demoura2021
+    locator: Abstract
+    verification_note: 'Abstract: Lean 4, a reimplementation of the Lean interactive theorem prover.'
+    verified: true
+- id: s-feng
+  kind: source
+  passage: Aletheia, a research agent that generates, verifies and revises arguments in natural language, produced
+    a paper without human intervention, contributed to a paper written jointly with people, and in a semi-autonomous
+    evaluation of 700 open Erdős problems produced autonomous solutions to four; its authors propose levels of autonomy
+    and novelty and cards documenting human-AI interaction [@feng2026].
+  evidence:
+    citation_id: feng2026
+    locator: Abstract
+    verification_note: 'arXiv abstract (v3): a paper generated without human intervention; human-AI collaboration;
+      semi-autonomous evaluation of 700 open problems on Bloom''s Erdos database with autonomous solutions to four;
+      autonomy and novelty levels; human-AI interaction cards.'
+    verified: true
+- id: s-tsouk
+  kind: source
+  passage: An agent combining language models with Lean verification resolved 9 of 353 open Erdős problems at a
+    cost of a few hundred dollars per problem and proved 44 of 492 conjectures from the On-Line Encyclopedia of
+    Integer Sequences [@tsoukalas2026].
+  evidence:
+    citation_id: tsoukalas2026
+    locator: Abstract
+    verification_note: 'arXiv abstract (v2): 9 of 353 open Erdos problems at a per-problem cost of a few hundred
+      dollars; 44/492 OEIS conjectures; Lean verification.'
+    verified: true
+- id: s-oai
+  kind: source
+  passage: OpenAI's public repository lists 719 manuscripts in 372 families of related results, produced from about
+    4,000 problems posed to an unreleased model at an average of about three hours of compute per result, with about
+    42% of the top-line results formalised in Lean [@openai2026].
+  evidence:
+    citation_id: openai2026
+    locator: README
+    verification_note: 'README read 2026-10-08: 719 manuscripts in 372 families; about 4,000 problems posed; on
+      average three hours of ChatGPT Pro thinking compute per result; ~42% of top-line results formalized.'
+    verified: true
+- id: s-oai2
+  kind: source
+  passage: Its history records, on 7 October 2026, the withdrawal of three manuscripts after a sign error in one
+    argument on which two others depended, and revisions to 14 more [@openai2026].
+  evidence:
+    citation_id: openai2026
+    locator: history.md
+    verification_note: 'history.md read 2026-10-08: October 7, 2026: three manuscripts withdrawn after a sign error
+      invalidating an argument used by two dependent papers; 14 other manuscripts revised.'
+    verified: true
+- id: rec
+  kind: interpretation
+  passage: The record shows research episodes on selected problems, at a scale that makes machine-led mathematics
+    an empirical subject.
+  rationale: Assessment of the four reports above; their mathematics was not checked for this paper.
+- id: s-bar
+  kind: source
+  passage: 'Formal proof assistants separate the checking of a proof from its construction: the person, or the machine,
+    proposes, and a small trusted program checks every inference [@barendregt2005].'
+  evidence:
+    citation_id: barendregt2005
+    locator: Abstract
+    verification_note: 'Abstract: the human defines and proves while the machine checks definitions and proofs;
+      the paper discusses the small trusted checker (de Bruijn criterion).'
+    verified: true
+- id: s-tsouk2
+  kind: source
+  passage: It would require costs that include failed searches, formalisation, expert review and infrastructure,
+    which the formal-proof-search study notes are not captured by its per-problem figure [@tsoukalas2026].
+  evidence:
+    citation_id: tsoukalas2026
+    locator: Abstract and methods
+    verification_note: 'arXiv abstract and text: per-problem costs of a few hundred dollars for the most capable
+      agent; the text notes these do not capture the full cost of discovery.'
+    verified: true
+- id: s-demillo
+  kind: source
+  passage: Three years later DeMillo, Lipton and Perlis argued that mathematical proofs gain credibility through
+    social processes of reading and use that formal program verification could not reproduce [@demillo1979].
+  evidence:
+    citation_id: demillo1979
+    locator: Abstract
+    verification_note: 'Abstract: formal verification of programs will not play the role that proofs play in mathematics.'
+    verified: true
+- id: s-paulson
+  kind: source
+  passage: Their argument concerned software, and on formal methods it has aged badly; formal proof has since entered
+    mathematics itself [@paulson2025; @hales2017; @gonthier2008].
+  evidence:
+    citation_id: paulson2025
+    locator: Text
+    verification_note: 'Essay read 2026-10-08: the authors'' main argument was wrong; formal proof entered mathematics
+      (Big Proof, Lean).'
+    verified: true
+- id: s-mack
+  kind: source
+  passage: Historical work on the trust placed in mechanised proof shows the two interacting from the start [@mackenzie2001].
+  evidence:
+    citation_id: mackenzie2001
+    locator: Title
+    verification_note: 'Standard content: computing, risk and trust in mechanized proof (title).'
+    verified: true
+- id: s-thur
+  kind: source
+  passage: Thurston described mathematical progress as the advance of human understanding, of which theorems and
+    proofs are one product [@thurston1994].
+  evidence:
+    citation_id: thurston1994
+    locator: Abstract
+    verification_note: 'Abstract and essay: on proof and progress, responding to Jaffe and Quinn; progress as human
+      understanding.'
+    verified: true
+- id: s-rav
+  kind: source
+  passage: Thurston described mathematical progress as the advance of human understanding, of which theorems and
+    proofs are one product [@thurston1994].
+  evidence:
+    citation_id: rav1999
+    locator: Abstract
+    verification_note: 'Abstract: the epistemic content of proofs goes way beyond theorems.'
+    verified: true
+- id: s-avigad
+  kind: source
+  passage: Thurston described mathematical progress as the advance of human understanding, of which theorems and
+    proofs are one product [@thurston1994].
+  evidence:
+    citation_id: avigad2008
+    locator: Abstract
+    verification_note: 'Opening: what it means to understand mathematics and proofs.'
+    verified: true
+- id: s-tao
+  kind: source
+  passage: Tao, in an essay based on his lecture at the 2026 International Congress of Mathematicians, takes the
+    arrival of research-capable tools as given and asks what the goals and values of mathematical research are [@tao2026];
+    Enayat reads the same arrival through Benjamin's account of technical reproducibility and through Rav and Wittgenstein
+    [@enayat2026].
+  evidence:
+    citation_id: tao2026
+    locator: Abstract
+    verification_note: 'arXiv abstract: essay based on a public lecture at the 2026 ICM; conditions on research-capable
+      tools arriving and asks what the goals and values of mathematical research are.'
+    verified: true
+- id: s-enayat
+  kind: source
+  passage: Tao, in an essay based on his lecture at the 2026 International Congress of Mathematicians, takes the
+    arrival of research-capable tools as given and asks what the goals and values of mathematical research are [@tao2026];
+    Enayat reads the same arrival through Benjamin's account of technical reproducibility and through Rav and Wittgenstein
+    [@enayat2026].
+  evidence:
+    citation_id: enayat2026
+    locator: Abstract
+    verification_note: 'arXiv abstract: Benjamin''s account of technological reproducibility with Rav and Wittgenstein,
+      on AI and pure mathematics.'
+    verified: true
+- id: s-clark
+  kind: source
+  passage: The extended-mind proposal treats some reliably coupled external resources as parts of a cognitive process
+    [@clark1998].
+  evidence:
+    citation_id: clark1998
+    locator: Title
+    verification_note: 'Standard content: the extended mind (title and standard content).'
+    verified: true
+- id: s-dick
+  kind: source
+  passage: Historical work on the Argonne automated reasoning group shows the hybrid of people and the AURA system
+    producing new results in pure mathematics while transforming its members' mathematical intuition [@dick2011].
+  evidence:
+    citation_id: dick2011
+    locator: Abstract
+    verification_note: 'Abstract: humans+AURA at Argonne made novel contributions to pure mathematics; transformation
+      in mathematical intuition.'
+    verified: true
+- id: s-abbott
+  kind: source
+  passage: A profession is an organised claim to perform and govern a domain of expert work, which Abbott calls
+    a jurisdiction [@abbott1988]; it does not simply track a ranking of technical performance.
+  evidence:
+    citation_id: abbott1988
+    locator: Title
+    verification_note: 'Standard content: jurisdiction in the system of professions (title and standard content).'
+    verified: true
+- id: s-ochi
+  kind: source
+  passage: Ochigame has analysed how automation reconfigures proof standards, labour and credit in mathematics [@ochigame2024];
+    the transitions of section 4 restate that reconfiguration as separately measurable changes.
+  evidence:
+    citation_id: ochigame2024
+    locator: Abstract
+    verification_note: 'Abstract: how automation has reconfigured proof and labor; economies of labor and credit.'
+    verified: true
+- id: s-leiden
+  kind: source
+  passage: The Leiden Declaration of 2 June 2026, endorsed by the International Mathematical Union, holds that credit
+    and responsibility belong to humans within the mathematical community and should not be given to automated systems,
+    and calls on authors to disclose tool use and to keep responsibility for correctness [@leiden2026].
+  evidence:
+    citation_id: leiden2026
+    locator: Text
+    verification_note: 'Text read 2026-10-08: 2 June 2026; endorsed by the IMU; credit and responsibility belong
+      to humans and should not be given to automated systems; disclose tool use; retain responsibility for correctness.'
+    verified: true
+- id: s-agmai
+  kind: source
+  passage: The recommendations of the Advisory Group on Mathematics and AI, published on 29 September 2026 after
+    more than 600 responses from the community, distinguish papers that a responsible person understands from papers
+    not yet understood by anybody, ask laboratories to fund the human understanding of what they release, and warn
+    that proprietary models could create a two-tier system in which laboratories outrun the rest of the field [@agmai2026].
+  evidence:
+    citation_id: agmai2026
+    locator: Text
+    verification_note: 'Text read 2026-10-08: 29 September 2026; over 600 replies; papers that a human understands
+      vs papers not yet understood by anybody; labs should support human understanding; risk of a two-tier system.'
+    verified: true
+- id: s-autor
+  kind: source
+  passage: Automation substitutes for labour in some tasks, complements it in others and raises demand through productivity
+    [@autor2015]; it displaces workers from existing tasks and can create new ones [@acemoglu2019].
+  evidence:
+    citation_id: autor2015
+    locator: Abstract
+    verification_note: 'Abstract: automation substitutes for and complements labor and raises output and demand.'
+    verified: true
+- id: s-acem
+  kind: source
+  passage: Automation substitutes for labour in some tasks, complements it in others and raises demand through productivity
+    [@autor2015]; it displaces workers from existing tasks and can create new ones [@acemoglu2019].
+  evidence:
+    citation_id: acemoglu2019
+    locator: Abstract
+    verification_note: 'Abstract: displacement effect of automation and the creation of new tasks.'
+    verified: true
+- id: hours
+  kind: interpretation
+  passage: If demand for projects grew fivefold while human hours per project fell to a twentieth, total human research
+    hours would fall to a quarter of their former level; other assumptions give growth.
+  rationale: 'Arithmetic: 5 x (1/20) = 1/4; an illustration, not a forecast.'
+- id: b-60
+  kind: computation
+  passage: In English books to 2022 (Figure 3a), "human mathematician(s)" accounted for 0.045% of uses of the noun
+    in 1960, 0.085% in 1990 and 0.10% in 2018, and machine-qualified forms ("automated", "artificial", "machine",
+    "computer", "robot", "mechanical", "electronic" or "AI mathematician") for 0.013% in 2018, 7.9 times less.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_books/h_1960
+    reported: 0.045%
+    units: percent of uses
+    conditions: 1960; Google Books Ngram Viewer, English, case-insensitive, five-year centred ratios; data retrieved
+      8 October 2026
+    decimals: 3
+    scale: 100
+- id: b-90
+  kind: computation
+  passage: In English books to 2022 (Figure 3a), "human mathematician(s)" accounted for 0.045% of uses of the noun
+    in 1960, 0.085% in 1990 and 0.10% in 2018, and machine-qualified forms ("automated", "artificial", "machine",
+    "computer", "robot", "mechanical", "electronic" or "AI mathematician") for 0.013% in 2018, 7.9 times less.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_books/h_1990
+    reported: 0.085%
+    units: percent of uses
+    conditions: '1990'
+    decimals: 3
+    scale: 100
+- id: b-18
+  kind: computation
+  passage: In English books to 2022 (Figure 3a), "human mathematician(s)" accounted for 0.045% of uses of the noun
+    in 1960, 0.085% in 1990 and 0.10% in 2018, and machine-qualified forms ("automated", "artificial", "machine",
+    "computer", "robot", "mechanical", "electronic" or "AI mathematician") for 0.013% in 2018, 7.9 times less.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_books/h_2018
+    reported: 0.10%
+    units: percent of uses
+    conditions: '2018'
+    decimals: 2
+    scale: 100
+- id: b-m18
+  kind: computation
+  passage: In English books to 2022 (Figure 3a), "human mathematician(s)" accounted for 0.045% of uses of the noun
+    in 1960, 0.085% in 1990 and 0.10% in 2018, and machine-qualified forms ("automated", "artificial", "machine",
+    "computer", "robot", "mechanical", "electronic" or "AI mathematician") for 0.013% in 2018, 7.9 times less.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_books/m_2018
+    reported: 0.013%
+    units: percent of uses
+    conditions: machine-qualified forms, 2018
+    decimals: 3
+    scale: 100
+- id: b-r
+  kind: computation
+  passage: In English books to 2022 (Figure 3a), "human mathematician(s)" accounted for 0.045% of uses of the noun
+    in 1960, 0.085% in 1990 and 0.10% in 2018, and machine-qualified forms ("automated", "artificial", "machine",
+    "computer", "robot", "mechanical", "electronic" or "AI mathematician") for 0.013% in 2018, 7.9 times less.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_books/h_over_m_2018
+    reported: '7.9'
+    units: ratio
+    conditions: human-qualified over machine-qualified, 2018
+    decimals: 1
+- id: s-priem
+  kind: source
+  passage: For the years since 2016 we used titles and abstracts in OpenAlex, an open index of scholarly works [@priem2022],
+    counting works per publication year whose title or abstract contains the noun or a qualified form; 2026 runs
+    to 8 October.
+  evidence:
+    citation_id: priem2022
+    locator: Title
+    verification_note: 'Standard content: OpenAlex, an open index of scholarly works (title).'
+    verified: true
+- id: o-lo
+  kind: computation
+  passage: Between 1,795 and 2,423 works a year used "mathematician".
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_scholarly/mathematician/2022
+    reported: 1,795
+    units: works
+    conditions: minimum, 2022; OpenAlex title-and-abstract search, retrieved 8 October 2026; 2026 to 8 October
+    decimals: 0
+- id: o-hi
+  kind: computation
+  passage: Between 1,795 and 2,423 works a year used "mathematician".
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_scholarly/mathematician/2026
+    reported: 2,423
+    units: works
+    conditions: maximum, 2026 to 8 October
+    decimals: 0
+- id: o-1
+  kind: computation
+  passage: Works using "human mathematician" numbered between 1 and 5 a year from 2016 to 2024, 15 in 2025 and 84
+    in 2026 (Figure 3b).
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_scholarly/human/2022
+    reported: '1'
+    units: works
+    conditions: minimum, 2022
+    decimals: 0
+- id: o-5
+  kind: computation
+  passage: Works using "human mathematician" numbered between 1 and 5 a year from 2016 to 2024, 15 in 2025 and 84
+    in 2026 (Figure 3b).
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_scholarly/human/2024
+    reported: '5'
+    units: works
+    conditions: maximum, 2024 (and 2017)
+    decimals: 0
+- id: o-25
+  kind: computation
+  passage: Works using "human mathematician" numbered between 1 and 5 a year from 2016 to 2024, 15 in 2025 and 84
+    in 2026 (Figure 3b).
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_scholarly/human/2025
+    reported: '15'
+    units: works
+    conditions: '2025'
+    decimals: 0
+- id: o-26
+  kind: computation
+  passage: Works using "human mathematician" numbered between 1 and 5 a year from 2016 to 2024, 15 in 2025 and 84
+    in 2026 (Figure 3b).
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_scholarly/human/2026
+    reported: '84'
+    units: works
+    conditions: 2026 to 8 October, all records
+    decimals: 0
+- id: o-cl
+  kind: computation
+  passage: Twenty-seven of the 84 records came from one author's self-deposited series of manuscripts, which repeated
+    a boilerplate sentence containing the phrase, and several records duplicated others; this is the failure that
+    bibliographic counts share with the book corpus, where one prolific author can move a frequency [@pechenick2015].
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_scholarly/human/2026
+    reported: '84'
+    units: works
+    conditions: all records 2026
+    decimals: 0
+- id: o-cl27
+  kind: interpretation
+  passage: Twenty-seven of the 84 records came from one author's self-deposited series of manuscripts, which repeated
+    a boilerplate sentence containing the phrase, and several records duplicated others; this is the failure that
+    bibliographic counts share with the book corpus, where one prolific author can move a frequency [@pechenick2015].
+  rationale: Count from /mathematician_scholarly/clean/2026/cluster_raw = 27 records of a single self-deposited
+    series.
+- id: o-36
+  kind: computation
+  passage: After removing duplicate titles and that series and keeping works whose text contains the phrase, 36
+    works used "human mathematician" in 2026, against an average of 2.6 a year from 2016 to 2024.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_scholarly/clean/2026/phrase
+    reported: '36'
+    units: works
+    conditions: cleaned 2026
+    decimals: 0
+- id: o-pre
+  kind: computation
+  passage: After removing duplicate titles and that series and keeping works whose text contains the phrase, 36
+    works used "human mathematician" in 2026, against an average of 2.6 a year from 2016 to 2024.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_scholarly/pre_mean_clean
+    reported: '2.6'
+    units: works per year
+    conditions: cleaned mean 2016-2024
+    decimals: 1
+- id: o-r0
+  kind: computation
+  passage: As a share of works using "mathematician" the rate rose from 0.13% in 2016 to 2024 to 1.49% in 2026,
+    11.5 times.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_scholarly/pre_clean_rate
+    reported: 0.13%
+    units: percent of works
+    conditions: cleaned 2016-2024
+    decimals: 2
+    scale: 100
+- id: o-r1
+  kind: computation
+  passage: As a share of works using "mathematician" the rate rose from 0.13% in 2016 to 2024 to 1.49% in 2026,
+    11.5 times.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_scholarly/clean_rate_2026
+    reported: 1.49%
+    units: percent of works
+    conditions: cleaned 2026
+    decimals: 2
+    scale: 100
+- id: o-rf
+  kind: computation
+  passage: As a share of works using "mathematician" the rate rose from 0.13% in 2016 to 2024 to 1.49% in 2026,
+    11.5 times.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_scholarly/clean_rate_fold
+    reported: '11.5'
+    units: ratio
+    conditions: fold change
+    decimals: 1
+- id: o-ai
+  kind: computation
+  passage: In 33 of the 36 cleaned works of 2026, and in all 12 of 2025, the title or abstract also contains a term
+    for artificial intelligence, machines or formal verification.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_scholarly/clean/2026/ai_context
+    reported: '33'
+    units: works
+    conditions: title or abstract contains AI, machine or formal-verification terms
+    decimals: 0
+- id: o-ai36
+  kind: computation
+  passage: In 33 of the 36 cleaned works of 2026, and in all 12 of 2025, the title or abstract also contains a term
+    for artificial intelligence, machines or formal verification.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_scholarly/clean/2026/phrase
+    reported: '36'
+    units: works
+    conditions: cleaned 2026
+    decimals: 0
+- id: o-ai25
+  kind: computation
+  passage: In 33 of the 36 cleaned works of 2026, and in all 12 of 2025, the title or abstract also contains a term
+    for artificial intelligence, machines or formal verification.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_scholarly/clean/2025/ai_context
+    reported: '12'
+    units: works
+    conditions: '2025'
+    decimals: 0
+- id: o-m
+  kind: computation
+  passage: 'Machine-qualified forms remain rare: works calling a system an "AI", "automated", "artificial", "machine"
+    or "robot mathematician" numbered 17 across 2016 to 2026 and 6 in 2026, 0.25% of works using the noun that year.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_scholarly/machine_total_2016_2026
+    reported: '17'
+    units: works
+    conditions: AI, automated, artificial, machine or robot mathematician, 2016-2026
+    decimals: 0
+- id: o-m26
+  kind: computation
+  passage: 'Machine-qualified forms remain rare: works calling a system an "AI", "automated", "artificial", "machine"
+    or "robot mathematician" numbered 17 across 2016 to 2026 and 6 in 2026, 0.25% of works using the noun that year.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_scholarly/machine_2026
+    reported: '6'
+    units: works
+    conditions: '2026'
+    decimals: 0
+- id: o-mr
+  kind: computation
+  passage: 'Machine-qualified forms remain rare: works calling a system an "AI", "automated", "artificial", "machine"
+    or "robot mathematician" numbered 17 across 2016 to 2026 and 6 in 2026, 0.25% of works using the noun that year.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_scholarly/machine_rate_2026
+    reported: 0.25%
+    units: percent of works
+    conditions: '2026'
+    decimals: 2
+    scale: 100
+- id: o-ag
+  kind: computation
+  passage: Machines are called models, agents and systems; "mathematical agent" appeared in 14 works in 2026.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /mathematician_scholarly/agent/2026
+    reported: '14'
+    units: works
+    conditions: '2026'
+    decimals: 0
+- id: o-111
+  kind: computation
+  passage: 'But in 1950 the machines were already called computers: the machine sense was marked 111 times as often
+    as the human one, because writers needed "electronic" or "digital" to say which computer they meant.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /computer/m_over_h_1950
+    reported: '111'
+    units: ratio
+    conditions: computer, 1950
+    decimals: 0
+- id: o-sixth
+  kind: interpretation
+  passage: In 2026 the ratio runs the other way, with machine-qualified forms one sixth as frequent as "human mathematician"
+    among the cleaned works.
+  rationale: Ratio from /mathematician_scholarly/machine_over_human_2026 = 6/36 = one sixth (cleaned human count).
+- id: o-read
+  kind: interpretation
+  passage: A rise in "human mathematician" is weak evidence of a change in default by itself; it is what contrastive
+    writing produces while the human sense is still the default.
+  rationale: Interpretation of section 8.2 against section 3.
+- id: scen
+  kind: interpretation
+  passage: The fourth matches the title.
+  rationale: Scenarios adapted from the origin dossier; assessment from section 8.
+- id: proto
+  kind: definition
+  passage: A forecast in the title has value if it can fail.
+  rationale: Protocol of three preregistered claims, adapted from the origin dossier.
+- id: s-ham
+  kind: source
+  passage: Quantitative laws of semantic change estimated from historical corpora [@hamilton2016; @traugott2002]
+    can inform the expected pace, but the two cases measured here suggest that the pace of a noun's transfer follows
+    the frequency with which people talk about the machine, which depends on adoption far beyond the profession.
+  evidence:
+    citation_id: hamilton2016
+    locator: Abstract
+    verification_note: 'Abstract: quantitative laws of semantic change from historical corpora.'
+    verified: true
+- id: s-trau
+  kind: source
+  passage: Quantitative laws of semantic change estimated from historical corpora [@hamilton2016; @traugott2002]
+    can inform the expected pace, but the two cases measured here suggest that the pace of a noun's transfer follows
+    the frequency with which people talk about the machine, which depends on adoption far beyond the profession.
+  evidence:
+    citation_id: traugott2002
+    locator: Title
+    verification_note: 'Standard content: regularity in semantic change (title).'
+    verified: true
+- id: s-lev
+  kind: source
+  passage: This is the asymmetry that linguists have described as markedness and that reduces largely to frequency
+    [@horn1984; @levinson2000; @haspelmath2006].
+  evidence:
+    citation_id: levinson2000
+    locator: Title
+    verification_note: 'Standard content: presumptive meanings and generalized conversational implicature (title).'
+    verified: true
+- id: s-shet
+  kind: source
+  passage: At the Langley laboratory of the National Advisory Committee for Aeronautics, "computer" was a job title
+    for people who performed calculations by hand; hundreds of women, most of them with degrees in mathematics or
+    the sciences, worked as computers there, and African-American women were grouped in a segregated section, the
+    West Area Computers [@nasa2016; @shetterly2016].
+  evidence:
+    citation_id: shetterly2016
+    locator: Title
+    verification_note: 'Standard content: history of the Black women mathematicians employed as computers at Langley
+      (title).'
+    verified: true
+- id: s-ngram
+  kind: source
+  passage: 'Three series serve for "computer" in the English corpus of the Google Books Ngram Viewer [@michel2011;
+    @ngramviewer], case-insensitive and unsmoothed, from 1900 to 2022: the frequency of "computer" and "computers";
+    the frequency of the machine-marked forms "electronic", "digital" and "automatic computer(s)"; and the frequency
+    of "human computer(s)" net of "human-computer interaction" and "human-computer interface(s)".'
+  evidence:
+    citation_id: ngramviewer
+    locator: Data
+    verification_note: 'Data source: Google Books Ngram Viewer JSON endpoint, English corpus, retrieved 2026-10-08
+      (frozen in simulation/data/ngram.json).'
+    verified: true
+- id: s-lenatb
+  kind: source
+  passage: 'Douglas Lenat''s thesis of that year, *AM: An Artificial Intelligence Approach to Discovery in Mathematics
+    as Heuristic Search*, described a program that proposed mathematical concepts and conjectures [@lenat1976; @lenatbrown1984].'
+  evidence:
+    citation_id: lenatbrown1984
+    locator: Title
+    verification_note: 'Standard content: why AM and EURISKO appear to work (title).'
+    verified: true
+- id: s-appelA
+  kind: source
+  passage: The four-colour theorem of 1976 combined a mathematical reduction with a computer-checked set of reducible
+    configurations; the full proof appeared in two papers, the second with John Koch as co-author [@appel1976; @appel1977a;
+    @appel1977b].
+  evidence:
+    citation_id: appel1977a
+    locator: Abstract
+    verification_note: 'Abstract and text: Part I, discharging; Kempe chains.'
+    verified: true
+- id: s-appelB
+  kind: source
+  passage: The four-colour theorem of 1976 combined a mathematical reduction with a computer-checked set of reducible
+    configurations; the full proof appeared in two papers, the second with John Koch as co-author [@appel1976; @appel1977a;
+    @appel1977b].
+  evidence:
+    citation_id: appel1977b
+    locator: Record
+    verification_note: 'Record: Part II, reducibility, by Appel, Haken and Koch.'
+    verified: true
+runs:
+- id: model
+  record: verification/model.json
+  required: true

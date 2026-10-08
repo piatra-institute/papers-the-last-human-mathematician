@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "id": "model",
+  "started": "2026-10-08T07:52:06.756719+00:00",
+  "finished": "2026-10-08T07:52:08.523211+00:00",
+  "command": [
+    "uv",
+    "run",
+    "python",
+    "run_all.py"
+  ],
+  "cwd": "simulation",
+  "runtime": {
+    "scope": "recorder",
+    "python": "3.12.4 (v3.12.4:8e8a4baf65, Jun  6 2024, 17:33:18) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "platform": "macOS-15.1-arm64-arm-64bit"
+  },
+  "execution_result": null,
+  "execution": {
+    "status": "PASS",
+    "exit_code": 0,
+    "detail": "command completed"
+  },
+  "input_scope": "execution-v1",
+  "additional_inputs": [
+    "simulation/data/ngram.json",
+    "simulation/data/openalex_counts.json",
+    "simulation/data/openalex_human_mathematician.json"
+  ],
+  "inputs": {
+    "simulation/analyses.py": "c54fbc6b6276f7d6d6d589220af6da3356b01fea821eb014eaf2b7e3e1725d53",
+    "simulation/data/ngram.json": "fbc07e34696f67d0ad97ec542ab5bec0c270b6982c1d6da12768ea516185ac1f",
+    "simulation/data/openalex_counts.json": "54db6470ab505ccfdb8a233298d2109b67447d9f3d74778163baebd07ee227a3",
+    "simulation/data/openalex_human_mathematician.json": "a3f296384ab03bf88776f3f7e97a3dac5a104cc3f4a616d6f66a3497f1d6e81b",
+    "simulation/fetch_data.py": "3f77168fefdca06911712e9e4929bbb6fc0d36011b7a55ee9fa4033196bd8daf",
+    "simulation/figures.py": "ad4895410255c6d5e72ac02ca63e80a21665bccb1243808a5575fb5f6ec41e58",
+    "simulation/pyproject.toml": "fa2cb08556d98f81345526e7ed05508853ff20c53b9aeb7ee743aa0f64210487",
+    "simulation/run_all.py": "69f00e1cb069f340c0a0c6f2ce8e6329ecbf6b08b7aeb9b790bd11c5d9eb7e3e",
+    "simulation/uv.lock": "7dc8bdcd0a6e9c3a7d1e081f9a2b908737fa6e28c3eac72e9f675cf2dd1ed735"
+  },
+  "artifacts": {
+    "simulation/output/results.json": "b25a8a1c05a25c95a8b32e9eda9538307e94c6938004afbe475d2d1cfa14da2d"
+  }
+}
